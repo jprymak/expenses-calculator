@@ -8,7 +8,7 @@ export default function validateInfo(values) {
       errors.amount = "Field cannot be empty";
     }
     if (!values.flow) {
-      errors.type = "Field cannot be empty";
+      errors.flow = "Field cannot be empty";
     }
     if (!values.category) {
       errors.category = "Field cannot be empty";
