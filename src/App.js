@@ -38,9 +38,11 @@ const initialIncome = [
   }
 ]
 
+const storedData = JSON.parse(localStorage.getItem('budgetApp'));
+
 function App() {
-  const [expenses, setExpenses] = useState(JSON.parse(localStorage.getItem('budgetApp')).expenses || initialExpenses);
-  const [income, setIncome] = useState(JSON.parse(localStorage.getItem('budgetApp')).income || initialIncome);
+  const [expenses, setExpenses] = useState(storedData ? storedData.expenses : initialExpenses);
+  const [income, setIncome] = useState(storedData ? storedData.income : initialIncome);
   const [budget, setBudget] = useState(0);
 
   useEffect(() => {
