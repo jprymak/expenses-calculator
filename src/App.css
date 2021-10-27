@@ -185,18 +185,6 @@ input[type="radio"] {
   list-style: none;
 }
 
-.list li{
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-}
-
-.list button{
-  width:4rem;
-  cursor: pointer;
-}
-
 .budget{
   font-size: 4rem;
 }

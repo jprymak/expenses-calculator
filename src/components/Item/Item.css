@@ -1,0 +1,10 @@
+.Item{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .Item button{
+    width:4rem;
+    cursor: pointer;
+  }
