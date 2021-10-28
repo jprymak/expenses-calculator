@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Formik, Form, Field } from "formik";
 import { v4 as uuidv4 } from 'uuid';
-import validate from "../validateInfo";
+import validate from "../../validateInfo";
 
+import "./ItemCreator.css"
 
 const categories = ["food", "education", "transport", "car", "alcohol", "games", "money"]
 

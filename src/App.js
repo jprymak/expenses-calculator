@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import './App.css';
-import ItemCreator from "./components/ItemCreator";
+import ItemCreator from "./components/ItemCreator/ItemCreator";
 import Item from "./components/Item";
 
 const initialExpenses = [
