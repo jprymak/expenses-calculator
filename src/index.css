@@ -1,3 +1,29 @@
+:root {
+  /*colors*/
+  --clr-blue-1: #3498db;
+  --clr-blue-2: #2980b9;
+
+  --clr-grey-1: #bdc3c7;
+
+  --clr-red-1: #e74c3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
